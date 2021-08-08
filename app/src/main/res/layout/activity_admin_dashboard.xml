@@ -236,7 +236,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/log_out"
+                >
 
                 <ImageView
                     android:layout_width="wrap_content"
