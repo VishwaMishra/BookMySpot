@@ -8,76 +8,65 @@
 
     <!--    Creating Sign up Button-->
 
-    <view
-        android:layout_width="0dp"
-        android:layout_height="150dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+    <View
+        android:name="topView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:layout_marginStart="0dp"
-        android:background="#00AACC">
-
-    </view>
+        android:background="@color/colorSecondary">
+    </View>
 
     <View
+        android:id="@+id/waveDesign"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/ic_wave">
 
     </View>
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="vertical">-->
-<!--        &lt;!&ndash;    <EditText&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:id="@+id/username"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:text="Username"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_marginTop="100dp"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:inputType="textPersonName"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:importantForAutofill="no">&ndash;&gt;-->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Create Account"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="32dp" />
 
-<!--        &lt;!&ndash;    </EditText>&ndash;&gt;-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waveDesign"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:padding="15dp">
 
-<!--        &lt;!&ndash;    <EditText&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:id="@+id/email"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:text="Email"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_marginTop="100dp"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:inputType="textEmailAddress">&ndash;&gt;-->
-
-<!--        &lt;!&ndash;    </EditText>&ndash;&gt;-->
-<!--        &lt;!&ndash;    <EditText&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:id="@+id/mobile_num"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:text="Contact Number"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:inputType="number"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_marginTop="100dp">&ndash;&gt;-->
-
-<!--        &lt;!&ndash;    </EditText>&ndash;&gt;-->
-
-<!--        &lt;!&ndash;    <EditText&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:id="@+id/password"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:text="@string/password"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:layout_marginTop="100dp"&ndash;&gt;-->
-<!--        &lt;!&ndash;        android:inputType="text">&ndash;&gt;-->
-
-<!--        &lt;!&ndash;    </EditText>&ndash;&gt;-->
-<!--        <Button-->
-<!--            android:layout_width="250dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginLeft="55dp"-->
-<!--            android:layout_marginTop="20dp"-->
-<!--            android:background="@drawable/create_account_background"-->
-<!--            android:text="Create Account"-->
-<!--            android:textColor="#fff"></Button>-->
-<!--    </LinearLayout>-->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="@color/colorSecondary"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
 
 
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/create_account_background"
+        android:text="Create Account"
+        android:textColor="#fff" />
 </RelativeLayout>

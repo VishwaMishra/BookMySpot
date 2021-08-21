@@ -6,4 +6,5 @@
     <color name="whiteText">#fff</color>
     <color name="blackText">#000</color>
     <color name="MainColor">#162252</color>
+    <color name="colorSecondary">#00AACC</color>
 </resources>
