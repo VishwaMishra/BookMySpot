@@ -94,7 +94,7 @@
         android:background="@drawable/border"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="Login"
+        android:text="Log in"
         android:textColor="#fff"
         android:textFontWeight="700"
         android:textSize="20sp" />
@@ -115,7 +115,7 @@
         android:background="@drawable/create_account_background"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="Create Account"
+        android:text="Sign Up"
         android:textColor="#fff"
         android:textFontWeight="700"
         android:textSize="20sp" />
