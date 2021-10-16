@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770848672273",
+    "project_id": "bookmyspot-a4db4",
+    "storage_bucket": "bookmyspot-a4db4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770848672273:android:9cff12ab7cebedd36b3fb0",
+        "android_client_info": {
+          "package_name": "com.example.meetingroombookingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770848672273-a74gr2aa5c493sp38te86qlcerr91doq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6XmJJVIMgTS5Qd-kb0B8l2J213LuknhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770848672273-a74gr2aa5c493sp38te86qlcerr91doq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

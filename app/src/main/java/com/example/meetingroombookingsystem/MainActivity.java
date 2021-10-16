@@ -7,11 +7,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     EditText user,pass;
-    Button login;
+    Button login,signUp;
+
+    FirebaseDatabase rootnode;
+    DatabaseReference reference;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         user = findViewById(R.id.user);
         pass = findViewById(R.id.pass);
         login = (Button) findViewById(R.id.loginBtn);
+        signUp = findViewById(R.id.SignUpBtn);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(i);
                     }
                 }
+            }
+
+        });
+
+        signUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),CreateAccountActivity.class);
+                startActivity(i);
             }
 
         });
