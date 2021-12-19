@@ -1,9 +1,9 @@
 package com.example.meetingroombookingsystem;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Splash extends AppCompatActivity {
 
@@ -18,10 +18,11 @@ public class Splash extends AppCompatActivity {
             public void run() {
                 try {
                     super.run();
-                    sleep(10000);  //Delay of 10 seconds
+                    sleep(2000);  //Delay of 10 seconds
                 } catch (Exception e) {
 
-                } finally {
+                }
+                finally {
 
                     Intent i = new Intent(getApplicationContext(),
                             MainActivity.class);
